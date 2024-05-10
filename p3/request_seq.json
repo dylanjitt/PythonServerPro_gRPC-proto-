@@ -1,0 +1,112 @@
+[
+  {
+    "taxi_id": 101,
+    "conductor_id": "Carlos",
+    "pasajero_id": ["M", "Q"],
+    "tipoViaje": "POOL",
+    "ubicacion": {
+      "lat": -16.499301,
+      "lng": -68.133652
+    },
+    "tiempo": "2024-05-06T10:00:00.000Z"
+  },
+  {
+    "taxi_id": 102,
+    "conductor_id": "María",
+    "pasajero_id": ["J"],
+    "tipoViaje": "REGULAR",
+    "ubicacion": {
+      "lat": -16.566432,
+      "lng": -68.089466
+    },
+    "tiempo": "2024-05-06T10:15:00.000Z"
+  },
+  {
+    "taxi_id": 103,
+    "conductor_id": "Juan",
+    "pasajero_id": ["A"],
+    "tipoViaje": "PREMIUM",
+    "ubicacion": {
+      "lat": -16.495796,
+      "lng": -68.133644
+    },
+    "tiempo": "2024-05-06T10:30:00.000Z"
+  },
+  {
+    "taxi_id": 104,
+    "conductor_id": "Ana",
+    "pasajero_id": ["M","N","U"],
+    "tipoViaje": "POOL",
+    "ubicacion": {
+      "lat": -16.497683,
+      "lng": -68.138264
+    },
+    "tiempo": "2024-05-06T10:45:00.000Z"
+  },
+  {
+    "taxi_id": 105,
+    "conductor_id": "Luis",
+    "pasajero_id": ["Q"],
+    "tipoViaje": "REGULAR",
+    "ubicacion": {
+      "lat": -16.504233,
+      "lng": -68.130761
+    },
+    "tiempo": "2024-05-06T11:00:00.000Z"
+  },
+  {
+    "taxi_id": 106,
+    "conductor_id": "Carlos",
+    "pasajero_id": ["S"],
+    "tipoViaje": "PREMIUM",
+    "ubicacion": {
+      "lat": -16.499301,
+      "lng": -68.133652
+    },
+    "tiempo": "2024-05-06T11:15:00.000Z"
+  },
+  {
+    "taxi_id": 107,
+    "conductor_id": "María",
+    "pasajero_id": ["T", "U", "V"],
+    "tipoViaje": "POOL",
+    "ubicacion": {
+      "lat": -16.566432,
+      "lng": -68.089466
+    },
+    "tiempo": "2024-05-06T11:30:00.000Z"
+  },
+  {
+    "taxi_id": 108,
+    "conductor_id": "Juan",
+    "pasajero_id": ["W"],
+    "tipoViaje": "REGULAR",
+    "ubicacion": {
+      "lat": -16.495796,
+      "lng": -68.133644
+    },
+    "tiempo": "2024-05-06T11:45:00.000Z"
+  },
+  {
+    "taxi_id": 109,
+    "conductor_id": "Ana",
+    "pasajero_id": ["X"],
+    "tipoViaje": "PREMIUM",
+    "ubicacion": {
+      "lat": -16.497683,
+      "lng": -68.138264
+    },
+    "tiempo": "2024-05-06T12:00:00.000Z"
+  },
+  {
+    "taxi_id": 110,
+    "conductor_id": "Luis",
+    "pasajero_id": ["AA", "BB"],
+    "tipoViaje": "POOL",
+    "ubicacion": {
+      "lat": -16.504233,
+      "lng": -68.130761
+    },
+    "tiempo": "2024-05-06T12:15:00.000Z"
+  }
+]

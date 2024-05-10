@@ -1,0 +1,1916 @@
+2024-05-08T23:43:13 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T15:51:32 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T16:05:25 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T16:05:53 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T16:07:22 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T16:07:25 - ERROR - _call_behavior - Exception calling application: bad argument type for built-in operation
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 45, in Start
+    respuesta = pb.StartResponse(
+                ^^^^^^^^^^^^^^^^^
+TypeError: bad argument type for built-in operation
+2024-05-09T16:07:34 - ERROR - _call_behavior - Exception calling application: bad argument type for built-in operation
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 45, in Start
+    respuesta = pb.StartResponse(
+                ^^^^^^^^^^^^^^^^^
+TypeError: bad argument type for built-in operation
+2024-05-09T16:10:05 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T16:10:14 - ERROR - _call_behavior - Exception calling application: bad argument type for built-in operation
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 44, in Start
+    respuesta = pb.StartResponse(
+                ^^^^^^^^^^^^^^^^^
+TypeError: bad argument type for built-in operation
+2024-05-09T16:11:20 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T16:11:23 - ERROR - _call_behavior - Exception calling application: 'float' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 44, in Start
+    respuesta = pb.StartResponse(
+                ^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+2024-05-09T16:13:19 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T19:55:54 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T20:28:01 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T20:29:33 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:29:33 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:44:05 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 34, in Start
+    validation.validate_start_request(request)
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 2, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:46:00 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T20:50:54 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:50:58 - ERROR - _call_behavior - Exception calling application: argument of type 'StartRequest' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 3, in validate_start_request
+    if 'taxi_id' not in request:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'StartRequest' is not iterable
+2024-05-09T20:53:55 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:53:59 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:13 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:13 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:14 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:37 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.")
+ValueError: El campo 'tipoViaje' debe ser uno de 'REGULAR', 'POOL', 'PREMIUM'.
+2024-05-09T20:54:44 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 5, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T20:54:44 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T21:33:32 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T21:33:39 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T21:33:40 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T21:33:40 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T21:42:03 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T21:42:14 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T21:48:13 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T21:48:19 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T21:48:19 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T21:48:19 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T21:48:19 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T21:48:19 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T21:48:19 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T21:48:19 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T21:49:02 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T21:49:02 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T21:49:02 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T21:49:02 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T21:49:02 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T21:49:02 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T21:49:02 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T21:57:19 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T21:57:24 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'taxi_id' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise grpc.RpcError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'taxi_id' es obligatorio.")
+grpc.RpcError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'taxi_id' es obligatorio.")
+2024-05-09T21:57:24 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T21:57:24 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T21:57:24 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T21:57:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T21:57:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T21:57:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:02:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:02:24 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'taxi_id' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+grpc.RpcError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'taxi_id' es obligatorio.")
+2024-05-09T22:02:24 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:02:24 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:02:24 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:02:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:02:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:02:36 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:12:11 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:12:15 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:13:27 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError("El campo 'ubicacion' es obligatorio.")
+ValueError: El campo 'ubicacion' es obligatorio.
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:13:31 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:15:39 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError("El campo 'ubicacion' es obligatorio.")
+ValueError: El campo 'ubicacion' es obligatorio.
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:15:44 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:18:32 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError("El campo 'ubicacion' es obligatorio.")
+ValueError: El campo 'ubicacion' es obligatorio.
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:18:35 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:20:54 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError("El campo 'ubicacion' es obligatorio.")
+ValueError: El campo 'ubicacion' es obligatorio.
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:20:57 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:23:04 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: argument of type 'EnumTypeWrapper' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 18, in validate_start_request
+    if request.tipoViaje not in pb.TipoViaje:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'EnumTypeWrapper' is not iterable
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: argument of type 'EnumTypeWrapper' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 18, in validate_start_request
+    if request.tipoViaje not in pb.TipoViaje:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'EnumTypeWrapper' is not iterable
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: argument of type 'EnumTypeWrapper' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 18, in validate_start_request
+    if request.tipoViaje not in pb.TipoViaje:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'EnumTypeWrapper' is not iterable
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: argument of type 'EnumTypeWrapper' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 18, in validate_start_request
+    if request.tipoViaje not in pb.TipoViaje:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'EnumTypeWrapper' is not iterable
+2024-05-09T22:23:07 - ERROR - _call_behavior - Exception calling application: argument of type 'EnumTypeWrapper' is not iterable
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 18, in validate_start_request
+    if request.tipoViaje not in pb.TipoViaje:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'EnumTypeWrapper' is not iterable
+2024-05-09T22:24:26 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'taxi_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError("El campo 'taxi_id' es obligatorio.")
+ValueError: El campo 'taxi_id' es obligatorio.
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError("El campo 'ubicacion' es obligatorio.")
+ValueError: El campo 'ubicacion' es obligatorio.
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:24:30 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:38:18 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: ('Error ', <StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, ": El campo 'taxi_id' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError('Error ',grpc.StatusCode.INVALID_ARGUMENT,": El campo 'taxi_id' es obligatorio.")
+ValueError: ('Error ', <StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, ": El campo 'taxi_id' es obligatorio.")
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError("El campo 'ubicacion' es obligatorio.")
+ValueError: El campo 'ubicacion' es obligatorio.
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:38:24 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:40:25 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:40:29 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, ": El campo 'taxi_id' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,": El campo 'taxi_id' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, ": El campo 'taxi_id' es obligatorio.")
+2024-05-09T22:40:29 - ERROR - _call_behavior - Exception calling application: El campo 'conductor_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError("El campo 'conductor_id' es obligatorio.")
+ValueError: El campo 'conductor_id' es obligatorio.
+2024-05-09T22:40:30 - ERROR - _call_behavior - Exception calling application: El campo 'pasajero_id' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError("El campo 'pasajero_id' es obligatorio.")
+ValueError: El campo 'pasajero_id' es obligatorio.
+2024-05-09T22:40:30 - ERROR - _call_behavior - Exception calling application: El campo 'tipoViaje' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError("El campo 'tipoViaje' es obligatorio.")
+ValueError: El campo 'tipoViaje' es obligatorio.
+2024-05-09T22:40:30 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError("El campo 'ubicacion' es obligatorio.")
+ValueError: El campo 'ubicacion' es obligatorio.
+2024-05-09T22:40:30 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lat' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lat' es obligatorio.")
+ValueError: El campo 'ubicacion.lat' es obligatorio.
+2024-05-09T22:40:30 - ERROR - _call_behavior - Exception calling application: El campo 'ubicacion.lng' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError("El campo 'ubicacion.lng' es obligatorio.")
+ValueError: El campo 'ubicacion.lng' es obligatorio.
+2024-05-09T22:40:30 - ERROR - _call_behavior - Exception calling application: El campo 'tiempo' es obligatorio.
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError("El campo 'tiempo' es obligatorio.")
+ValueError: El campo 'tiempo' es obligatorio.
+2024-05-09T22:41:29 - INFO - <module> - El servidor esta listo en el puerto[::]:2026
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, ": El campo 'taxi_id' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 8, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,": El campo 'taxi_id' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, ": El campo 'taxi_id' es obligatorio.")
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'conductor_id' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 11, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'conductor_id' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'conductor_id' es obligatorio.")
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'pasajero_id' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 14, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'pasajero_id' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'pasajero_id' es obligatorio.")
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'tipoViaje' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 17, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'tipoViaje' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'tipoViaje' es obligatorio.")
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'ubicacion' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 23, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'ubicacion' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'ubicacion' es obligatorio.")
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'ubicacion.lat' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 26, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'ubicacion.lat' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'ubicacion.lat' es obligatorio.")
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'ubicacion.lng' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 29, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'ubicacion.lng' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'ubicacion.lng' es obligatorio.")
+2024-05-09T22:41:39 - ERROR - _call_behavior - Exception calling application: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'tiempo' es obligatorio.")
+Traceback (most recent call last):
+  File "/Users/dylanjitton/anaconda3/lib/python3.11/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/server.py", line 33, in Start
+    if validation.validate_start_request(request)==True:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dylanjitton/Documents/sistemas distribuidos/parcial Final/proyecto final/p3/validation.py", line 32, in validate_start_request
+    raise ValueError(grpc.StatusCode.INVALID_ARGUMENT,"El campo 'tiempo' es obligatorio.")
+ValueError: (<StatusCode.INVALID_ARGUMENT: (3, 'invalid argument')>, "El campo 'tiempo' es obligatorio.")

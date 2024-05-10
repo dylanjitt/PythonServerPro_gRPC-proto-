@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Taxi {
+  int64 taxi_id =1;
+  string conductor_id=2;
+  repeated string pasajero_id=3;
+  float costo_estimado=4;
+}

@@ -1,0 +1,11 @@
+{
+  "taxi_id": 101,
+  "conductor_id": "Carlos",
+  "pasajero_id": ["M", "Q"],
+  "tipoViaje": "POOL",
+  "ubicacion": {
+    "lat": -16.499301,
+    "lng": -68.133652
+  },
+  "tiempo": "2024-05-06T10:00:00.000Z"
+}
